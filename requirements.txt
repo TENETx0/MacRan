@@ -1,0 +1,15 @@
+# MacRan — MAC Address Randomizer & Changer
+# Author : TENETX0
+# GitHub : https://github.com/TENETx0/MacRan
+#
+# MacRan uses only Python standard library modules:
+#   argparse, os, re, random, subprocess, sys, time, typing
+#
+# No third-party packages are required.
+#
+# System dependencies (must be present on the Linux host):
+#   - iproute2  (provides the `ip` command — standard on all modern distros)
+#   - ethtool   (optional, needed for --reset / permanent MAC detection)
+#               Install: sudo apt install ethtool   (Debian/Ubuntu)
+#                        sudo dnf install ethtool   (Fedora/RHEL)
+#                        sudo pacman -S ethtool     (Arch)
